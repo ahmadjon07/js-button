@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    width: 150px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid black;
+    border: 1px solid red;
+}
+.element{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../img/6714978.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease 0.5s;
+}
+.light{
+    background-image: url(../img/mode-light.svg);
+    color: #fff;
+    background-repeat: no-repeat;
+    transform: translate(90px);
+}
+.dark{
+  background-image: url(../img/6714978.png);
+}
+.lmode{
+    color: #000;
+}
+.dmode{
+    color: #fff;
+}
